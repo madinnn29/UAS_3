@@ -351,7 +351,7 @@ def tab1_content():
                         spacing=5,
                         controls=[
                             Text("Sign In Below", size=22, weight='bold'),
-                            Text("          Agora-AI", size=13, weight='bold'),
+                            Text("          selamat ujian", size=13, weight='bold'),
                         ],
                     ),
                     Divider(height=20, color='transparent'),
@@ -373,6 +373,14 @@ def tab1_content():
             ),
         ),
     )
+#soal nomor 2
+class content(MainContentArea):
+    def __init__(self, tabs, title):
+        self.tabs = tabs
+        self.title = title
+        tabs = content()
+        title = content()
+        super().__init__()
 
 # Function to display tab2 content
 def tab2_content():
